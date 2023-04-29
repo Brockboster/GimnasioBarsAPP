@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GimnasioBarsAPP.Views.GimnasioLoginPage"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Gray"
+             BackgroundImageSource="GYMjpg"
+             
+             >
+             
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Padding="50,200,50,400">
+            
+            <Label Text="GYM BARS"
+                   TextColor="White"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="40"
+                   />
+
+
+            <Entry x:Name="TxtUsuario" Placeholder="Usuario"  FontSize="30" PlaceholderColor="White" />
+            <Entry x:Name="TxtContra" Placeholder="Contraseña"  FontSize="30" IsPassword="True" PlaceholderColor="white" />
+
+
+            
+            <Button x:Name="BtnEntrar" Text="Entrar" BackgroundColor="DarkGreen" CornerRadius="5" Clicked="Button_Clicked"/>
+            <Button x:Name="BtnRegistrar" Text="Registrarse" BackgroundColor="DarkOrange" CornerRadius="5" Clicked="BtnRegistrar_Clicked"/>
+            
+           
+
+
+            <Label Text="Olvide mi contraseña"  TextColor="White" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

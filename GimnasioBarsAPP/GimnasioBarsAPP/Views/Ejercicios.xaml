@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GimnasioBarsAPP.Views.Ejercicios"
+             BackgroundColor="Gray"
+              Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Padding="10">
+
+                <Label Text="Ejercicio 1: Abdominales"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"/>
+
+                <Image Source="Abdominales.jpg"
+                       Aspect="AspectFill"/>
+
+                <Label Text="Descripción: Este ejercicio se realiza tumbado boca arriba en el suelo con las rodillas dobladas y las manos en la nuca. Se eleva el tronco hasta que los hombros se separen del suelo. Se baja y se repite el movimiento."
+                       TextColor="Black"/>
+
+                <Label Text="Ejercicio 2: Sentadillas"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"/>
+
+                <Image Source="Sentadillas.jpg"
+                       Aspect="AspectFill"/>
+
+                <Label Text="Descripción: Este ejercicio se realiza de pie con los pies separados al ancho de los hombros. Se baja el cuerpo hasta que las piernas queden paralelas al suelo, manteniendo la espalda recta. Se levanta y se repite el movimiento."
+                       TextColor="Black"/>
+
+                <!-- Lagartija -->
+
+                <Label Text="Ejercicio 3: Push-ups"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"/>
+
+                <Image Source="Lagartijas.jpg"
+                       Aspect="AspectFill"/>
+
+                <Label Text="Descripción: Los push-ups se hacen acostándote boca abajo, con las manos y los pies apoyados en el suelo. Luego, debes bajar tu cuerpo flexionando los brazos hasta que tu pecho casi toque el suelo y luego empujar tu cuerpo hacia arriba hasta que tus brazos estén completamente extendidos."
+                       TextColor="Black"/>
+
+                <!-- Burpee -->
+
+                <Label Text="Ejercicio 4: Burpee"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"/>
+
+                <Image Source="Burpee.jpg"
+                       Aspect="AspectFill"/>
+
+                <Label Text="Descripción: Para hacer un burpee, empiezas de pie, luego te agachas y pones tus manos en el suelo. Luego, extiende tus piernas hacia atrás para quedar en posición de plancha. Después, regresa a la posición inicial y salta hacia arriba con los brazos extendidos por encima de la cabeza."
+                       TextColor="Black"/>
+                
+                
+                
+                
+                
+                <!-- Plancha Abdominal -->
+
+                <Label Text="Ejercicio 5: Plancha Abdominal"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"/>
+
+                <Image Source="Plancha.jpg"
+                       Aspect="AspectFill"/>
+
+                <Label Text="Descripción: Para hacer una plancha abdominal, colócate boca abajo y apoya tus antebrazos y dedos de los pies en el suelo. Mantén una línea recta desde los hombros hasta los pies, contrayendo los músculos del abdomen y glúteos. Aguanta la posición durante el tiempo deseado."
+                       TextColor="Black"/>
+
+
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

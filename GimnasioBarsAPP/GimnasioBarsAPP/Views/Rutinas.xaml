@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GimnasioBarsAPP.Views.Rutinas"
+              BackgroundColor="Gray" 
+              Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout>
+
+            <Label Text="Rutinas Semanales"
+               FontSize="Large"
+               HorizontalOptions="Center"
+                TextColor="Black"/>
+
+            <Label Text="Lunes: Rutina de Pecho y Tríceps"
+               FontSize="Medium"
+               HorizontalOptions="Center" TextColor="Black" />
+
+            <Image Source="Pecho.jpeg"
+               Aspect="AspectFill"
+               HeightRequest="200" />
+
+            <Label Text="Esta rutina se enfoca en ejercitar los músculos del pecho y tríceps. Incluye press de banca, aperturas con mancuernas y fondos de tríceps en paralelas." TextColor="Black"/>
+
+            <Label Text="Martes: Rutina de Espalda y Bíceps"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+                   TextColor="Black"/>
+
+            <Image Source="Espalda.jpg"
+               Aspect="AspectFill"
+               HeightRequest="200" />
+
+            <Label Text="Esta rutina se enfoca en ejercitar los músculos de la espalda y bíceps. Incluye dominadas, remo con barra y curl de bíceps con mancuernas." TextColor="Black" />
+
+            <Label Text="Miércoles: Día de Descanso"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+                   TextColor="Black"/>
+
+            <Image Source="Rest.jpg"
+               Aspect="AspectFill"
+               HeightRequest="200" />
+
+            <Label Text="Descansa y recupera energía para la siguiente rutina." TextColor="Black" />
+
+            <Label Text="Jueves: Rutina de Piernas"
+               FontSize="Medium"
+               HorizontalOptions="Center" 
+                   TextColor="Black"/>
+
+            <Image Source="Piernas.jpg"
+               Aspect="AspectFill"
+               HeightRequest="200" />
+
+            <Label Text="Esta rutina se enfoca en ejercitar los músculos de las piernas. Incluye sentadillas, zancadas y elevación de talones." TextColor="Black" />
+
+            <Label Text="Viernes: Rutina de Hombros y Abdominales"
+               FontSize="Medium"
+               HorizontalOptions="Center" 
+                   TextColor="Black"/>
+
+            <Image Source="Hombro.jpg"
+               Aspect="AspectFill"
+               HeightRequest="200" />
+
+            <Label Text="Esta rutina se enfoca en ejercitar los músculos de los hombros y abdominales. Incluye press militar, elevaciones laterales y crunches." TextColor="Black" />
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

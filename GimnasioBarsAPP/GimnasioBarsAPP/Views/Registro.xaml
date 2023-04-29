@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GimnasioBarsAPP.Views.Registro"
+              BackgroundColor="Gray"
+             BackgroundImageSource="GYMjpg" 
+              Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False">
+             
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry x:Name="TxtCorreo" Placeholder="Correo" PlaceholderColor="White" TextColor="White"/>
+            <Entry x:Name="TxtContra" Placeholder="Contraseña" IsPassword="True" PlaceholderColor="White" TextColor="White"/>
+            <Entry x:Name="TxtNombre" Placeholder="Nombre" PlaceholderColor="White" TextColor="White"   />
+            <Entry x:Name="TxtApellido" Placeholder="Apellido" PlaceholderColor="White" TextColor="White"/>
+            <Entry x:Name="TxtUsuario" Placeholder="Usuario" PlaceholderColor="White" TextColor="White"/>
+
+
+            <Button x:Name="BtnAcceder" Text="Acceder" BackgroundColor="DarkGreen" CornerRadius="5" Clicked="BtnAcceder_Clicked"/>
+            <Button x:Name="BtnSalir" Text="SALIR" BackgroundColor="Red" CornerRadius="5" Clicked="BtnSalir_Clicked" />
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

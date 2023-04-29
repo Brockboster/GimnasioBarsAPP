@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GimnasioBarsAPP.Views.Nutricion"
+             BackgroundColor="Gray"
+              Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Dietas populares" FontSize="Large" Margin="10"/>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Dieta mediterránea" FontSize="Medium"/>
+                    <Image Source="DietaMediterranea.jpg" Aspect="AspectFill" HeightRequest="200"/>
+                    <Label Text="La dieta mediterránea se basa en alimentos frescos y saludables, como frutas, verduras, legumbres, pescado y aceite de oliva. Se ha demostrado que esta dieta es buena para la salud del corazón y puede reducir el riesgo de enfermedades crónicas." Margin="10"/>
+                    <Button Text="Recomendaciones de dieta mediterránea" TextColor="White" BackgroundColor="Blue" Margin="10" Command="{Binding AbrirRecomendacionesCommand}" CommandParameter="https://www.nhlbi.nih.gov/health/educational/lose_wt/eat/mediterranean.htm"/>
+
+                    <Label Text="Dieta vegana" FontSize="Medium"/>
+                    <Image Source="DietaVegana.jpeg" Aspect="AspectFill" HeightRequest="200"/>
+                    <Label Text="La dieta vegana se basa en alimentos vegetales y elimina todos los productos animales, incluyendo carne, lácteos y huevos. Puede ser una buena opción para aquellos que buscan reducir su consumo de carne y productos animales, o para aquellos que buscan mejorar su salud en general." Margin="10"/>
+                    <Button Text="Recomendaciones de dieta vegana" TextColor="White" BackgroundColor="Blue" Margin="10" Command="{Binding AbrirRecomendacionesCommand}" CommandParameter="https://www.vegetariantimes.com/health-and-nutrition/vegan-diets-health-benefits"/>
+
+                    <Label Text="Dieta baja en carbohidratos" FontSize="Medium"/>
+                    <Image Source="DietaBaja.jpg" Aspect="AspectFill" HeightRequest="200"/>
+                    <Label Text="La dieta baja en carbohidratos se centra en reducir el consumo de carbohidratos, como pan, pasta y arroz, y aumentar el consumo de proteínas y grasas saludables. Se ha demostrado que esta dieta puede ayudar a perder peso y mejorar la salud metabólica." Margin="10"/>
+                    <Button Text="Recomendaciones de dieta baja en carbohidratos" TextColor="White" BackgroundColor="Blue" Margin="10" Command="{Binding AbrirRecomendacionesCommand}" CommandParameter="https://www.healthline.com/nutrition/low-carb-diet-plan"/>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+
+
+
+
+
+    </ContentPage.Content>
+</ContentPage>

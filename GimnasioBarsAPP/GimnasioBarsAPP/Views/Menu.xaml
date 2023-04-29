@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GimnasioBarsAPP.Views.Menu"
+              Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+              BackgroundColor="Gray"
+             BackgroundImageSource="GYMjpg" 
+             >
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="GYM BARS"
+                   TextColor="White"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="60"
+                   BackgroundColor="Black"
+                   />
+
+            <StackLayout VerticalOptions="Center"
+                     Padding="10,70,10,250">
+
+
+               
+
+
+                <Button x:Name="BtnNutricion" Text="Nutricion" BackgroundColor="Gray" CornerRadius="5" Clicked="BtnNutricion_Clicked" />
+                <Button x:Name="BtnEjercicios" Text="Ejercicios" BackgroundColor="Gray" CornerRadius="5" Clicked="BtnEjercicios_Clicked" />
+                <Button x:Name="BtnRutinas" Text="Rutinas" BackgroundColor="Gray" CornerRadius="5" Clicked="BtnRutinas_Clicked" />
+               
+                
+
+
+            </StackLayout >
+            
+            <StackLayout VerticalOptions="Center"
+                     Padding="50,50,50,50">
+
+
+                <Button x:Name="BtnContactanos" Text="Contactanos" BackgroundColor="DarkOrange" CornerRadius="5" Clicked="BtnContactanos_Clicked"/>
+                <Button x:Name="Salir" Text="Salir" BackgroundColor="Red" CornerRadius="5" Clicked="Salir_Clicked" />
+
+
+
+            </StackLayout >
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>
